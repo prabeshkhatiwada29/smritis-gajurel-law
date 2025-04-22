@@ -10,13 +10,13 @@ export const Footer = () => {
             <h3 className="text-xl font-bold mb-4 border-b border-law-gold pb-2">Gajurel Law Firm</h3>
             <p className="mb-4">Committed to providing exceptional legal representation with integrity and dedication.</p>
             <div className="flex space-x-4">
-              <a href="https://facebook.com" aria-label="Facebook" className="text-white hover:text-law-gold transition-colors">
+              <a href="https://www.facebook.com/gajurellawfirm" aria-label="Facebook" className="text-white hover:text-law-gold transition-colors">
                 <Facebook size={20} />
               </a>
-              <a href="https://instagram.com" aria-label="Instagram" className="text-white hover:text-law-gold transition-colors">
+              <a href="https://www.facebook.com/gajurellawfirm" aria-label="Instagram" className="text-white hover:text-law-gold transition-colors">
                 <Instagram size={20} />
               </a>
-              <a href="https://linkedin.com" aria-label="LinkedIn" className="text-white hover:text-law-gold transition-colors">
+              <a href="https://www.facebook.com/gajurellawfirm" aria-label="LinkedIn" className="text-white hover:text-law-gold transition-colors">
                 <Linkedin size={20} />
               </a>
             </div>
