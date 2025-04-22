@@ -1,12 +1,8 @@
-
 import { Link } from "react-router-dom";
 import { Facebook, Instagram, Linkedin, Mail, MapPin, Phone } from "lucide-react";
-
 export const Footer = () => {
   const currentYear = new Date().getFullYear();
-
-  return (
-    <footer className="bg-law-navy text-white pt-12 pb-4">
+  return <footer className="bg-law-navy text-white pt-12 pb-4">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           {/* Firm Info */}
@@ -43,11 +39,11 @@ export const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start">
                 <MapPin size={20} className="mr-2 mt-1 flex-shrink-0" />
-                <span>123 Legal Street, Kathmandu, Nepal</span>
+                <span> Kathmandu, Nepal</span>
               </li>
               <li className="flex items-center">
                 <Phone size={20} className="mr-2 flex-shrink-0" />
-                <span>+977 1234 567890</span>
+                <span>+9779849551776</span>
               </li>
               <li className="flex items-center">
                 <Mail size={20} className="mr-2 flex-shrink-0" />
@@ -62,6 +58,5 @@ export const Footer = () => {
           <p>&copy; {currentYear} Gajurel Law Firm. All rights reserved.</p>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
