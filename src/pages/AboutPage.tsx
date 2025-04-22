@@ -21,7 +21,7 @@ const AboutPage = () => {
             <div>
               <h2 className="text-3xl font-bold text-law-navy mb-6">My Background</h2>
               <div className="space-y-4 text-gray-700">
-                <p>My name is Smriti Gajurel, and I am a professional lawyer with a deep commitment to justice, integrity, and client advocacy. I am the founder of Gajurel Law Firm, where we strive to provide exceptional legal services with a personal touch. With a passion for the law and years of experience in the legal field, I am dedicated to helping individuals and businesses navigate legal challenges with confidence and clarity</p>
+                <p className="text-justify">My name is Smriti Gajurel, and I am a professional lawyer with a deep commitment to justice, integrity, and client advocacy. I am the founder of Gajurel Law Firm, where we strive to provide exceptional legal services with a personal touch. With a passion for the law and years of experience in the legal field, I am dedicated to helping individuals and businesses navigate legal challenges with confidence and clarity</p>
                 <p>
               </p>
                 <p>
