@@ -21,12 +21,9 @@ const AboutPage = () => {
             <div>
               <h2 className="text-3xl font-bold text-law-navy mb-6">My Background</h2>
               <div className="space-y-4 text-gray-700">
+                <p>My name is Smriti Gajurel, and I am a professional lawyer with a deep commitment to justice, integrity, and client advocacy. I am the founder of Gajurel Law Firm, where we strive to provide exceptional legal services with a personal touch. With a passion for the law and years of experience in the legal field, I am dedicated to helping individuals and businesses navigate legal challenges with confidence and clarity</p>
                 <p>
-                  With over [X] years of experience in legal practice, I have dedicated my career to providing exceptional legal representation to clients across Nepal. My journey in law began at [University Name], where I earned my law degree with honors.
-                </p>
-                <p>
-                  Throughout my career, I have developed expertise in various areas of law, with a particular focus on [specific practice areas]. My commitment to continuous learning and staying updated with the latest legal developments ensures that my clients receive the most current and effective legal strategies.
-                </p>
+              </p>
                 <p>
                   Before founding Gajurel Law Firm, I gained valuable experience working at [previous professional experience]. This diverse background has equipped me with a comprehensive understanding of legal challenges from multiple perspectives.
                 </p>
