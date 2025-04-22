@@ -42,7 +42,7 @@ const AboutPage = () => {
               <ul className="space-y-4 text-gray-700">
                 <li>
                   <div className="font-semibold">Law Degree</div>
-                  <div>University Name, Year</div>
+                  <div>Pokhara Univeristy , Year</div>
                 </li>
                 <li>
                   <div className="font-semibold">Bar Association Membership</div>
