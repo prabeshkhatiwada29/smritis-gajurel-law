@@ -1,10 +1,7 @@
-
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-
 const AboutPage = () => {
-  return (
-    <>
+  return <>
       <div className="bg-law-navy text-white py-20">
         <div className="container mx-auto px-4">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">About Smriti Gajurel</h1>
@@ -18,11 +15,7 @@ const AboutPage = () => {
             <div>
               <div className="relative">
                 <div className="absolute -top-4 -left-4 w-full h-full border-2 border-law-gold rounded-lg"></div>
-                <img 
-                  src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&q=80" 
-                  alt="Smriti Gajurel" 
-                  className="w-full h-auto rounded-lg shadow-lg relative z-10"
-                />
+                <img alt="Smriti Gajurel" className="w-full h-auto rounded-lg shadow-lg relative z-10" src="/lovable-uploads/90495c90-defd-41c1-b1d6-2b847f2eb5e0.png" />
               </div>
             </div>
             <div>
@@ -95,8 +88,6 @@ const AboutPage = () => {
           </div>
         </div>
       </section>
-    </>
-  );
+    </>;
 };
-
 export default AboutPage;
